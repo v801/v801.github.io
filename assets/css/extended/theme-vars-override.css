@@ -1,0 +1,46 @@
+.dark {
+    /* bg */
+    --theme: #000000;
+    /* post bg */
+    --entry: #000000;
+    /* main text color */
+    --primary: #C9F658;
+    /* post date/author/preview text color */
+    --secondary: #f1f1f1;
+    /* scroll bar? color */
+    --tertiary: #C9F658;
+    /* post text color */
+    --content: #f4f4f4;
+    /* regular code block background color */
+    --hljs-bg: #141414;
+    /* inline code block background color */
+    --code-bg: #141414;
+    /* post border color */
+    --border: none;
+}
+
+.dark H1, H2, H3, H4, H5, H6, .post-description {
+    color: #FFFFFF;
+}
+
+.dark .terms-tags a {
+    color: #000000;
+}
+.dark .top-link {
+    background: none;
+}
+
+.dark .post-entry:hover > .entry-header h2 {
+    color: #C9F658;
+}
+
+.dark .post-content a:hover {
+    color: #000000;
+    background-color: #C9F658;
+}
+
+::selection {
+    color: #FFFFFF;
+    background: #ff427f;
+    text-shadow: none;
+}
