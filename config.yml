@@ -115,11 +115,11 @@ menu:
     - identifier: about
       name: about
       url: /about
-      weight: 5 
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
+      weight: 10 
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
     - identifier: tags
       name: tags
       url: /tags/

@@ -8,10 +8,6 @@ tags = [
     "ssh",
     "linux hardening",
 ]
-categories = [
-    "linux hardening",
-    "ssh",
-]
 +++
 
 This article is about basic OpenSSH hardening that can be used on a new box.
