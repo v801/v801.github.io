@@ -9,8 +9,8 @@ tags = [
     "linux hardening",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "linux hardening",
+    "ssh",
 ]
 +++
 
