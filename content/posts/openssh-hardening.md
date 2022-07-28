@@ -4,7 +4,6 @@ title = "Basic OpenSSH Hardening"
 date = "2022-07-20"
 description = "Basic setup for OpenSSH hardening on a new box."
 tags = [
-    "openssh",
     "ssh",
     "linux hardening",
 ]
