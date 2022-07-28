@@ -1,5 +1,5 @@
 baseURL: "https://v801.github.io/"
-title: v801/cyberblog
+title: v801
 paginate: 5
 theme: PaperMod
 
@@ -29,7 +29,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: true
@@ -40,38 +40,38 @@ params:
   showtoc: false
   tocopen: false
 
-  assets:
+  # assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    # favicon: "<link / abs url>"
+    # favicon: none
     # favicon16x16: "<link / abs url>"
     # favicon32x32: "<link / abs url>"
     # apple_touch_icon: "<link / abs url>"
     # safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "v801"
+  # label:
+    # text: "v801"
     # icon: /apple-touch-icon.png
-    iconHeight: 35
+    # iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: v801
+    # title: v801
     # subtitle: "This is subtitle"
     # imageUrl: "<img location>"
     # imageWidth: 120
     # imageHeight: 120
     # imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    # buttons:
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
 
   # home-info mode
   # homeInfoParams:
-  #   Title: "/v801/blog"
+  #   Title: "v801/cyberblog"
   #   Content: I write about my adventures in learning cyber security and other fun things
 
   # socialIcons:
