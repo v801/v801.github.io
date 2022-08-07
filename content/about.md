@@ -1,8 +1,6 @@
 +++
 title = "About"
-date = "2022-07-27"
 aliases = ["about"]
-author = "v801"
 +++
 
 Hi, I'm v801. :space_invader:
