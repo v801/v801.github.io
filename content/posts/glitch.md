@@ -28,7 +28,7 @@ Glitch was a lot of fun so I wanted to share my experience running through it.  
 For this challenge I'm using a basic Ubuntu desktop with Firefox and some tools like curl, base64, find, netcat, nmap, ffuf and Burp/FoxyProxy.
 
 ### First moves
-After waiting for the box to spin up, the first thing that we can do is run a port scan. Using nmap we'll run the command `nmap -A -T4 [ip]`.  In this post the reference to `[target-ip]` is the challenge box, and `[attacker-ip]` is ours.
+After waiting for the box to spin up, the first thing that we can do is run a port scan. Using nmap we'll run the command `nmap -A -T4 [target-ip]`.  In this post the reference to `[target-ip]` is the challenge box, and `[attacker-ip]` is ours.
 
 Here is the output from the command, including my pumpkin prompt.
 ```none
