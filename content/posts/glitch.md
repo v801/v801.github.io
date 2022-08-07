@@ -159,7 +159,7 @@ Another simple way is to use `curl` with the `-X` flag.
 
 Possibly the edgiest curl of my life.  That seems to work fine but what about if we try a POST request instead of a GET request?  Let's see.
 
-```
+```none
 🎃 curl -X POST http://[target-ip]/api/items
 {"message":"there_is_a_glitch_in_the_matrix"}
 ```
