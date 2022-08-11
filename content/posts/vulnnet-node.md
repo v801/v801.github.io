@@ -410,7 +410,7 @@ Run a new listener on our end with `netcat`.
 Listening on 0.0.0.0 9999
 ```
 
-With our listener open and our modified service files and reverse shell in-place, we can start the `vulnnet-auto.timer` service which will run `vulnnet-job.service` on boot and every 1 minute.  
+With our listener open and our modified service files in-place, we can start the `vulnnet-auto.timer` service which will run `vulnnet-job.service` on boot and every 1 minute.  
 
 ```none
 serv-manage@vulnnet-node:~$ sudo -u root systemctl stop vulnnet-auto.timer
@@ -448,5 +448,5 @@ Holy hell, that was a lot of fun!  I'm really glad I got to dive into learning m
 
 ## Mitigation
 
-Keep Node.js packages up to date or replacing insecure ones.  
+Keep Node.js packages up to date or replace insecure ones.  
 Don't allow the server to read in user input, like from easily modifiable JSON from cookies.
