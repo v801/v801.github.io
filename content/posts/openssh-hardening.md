@@ -2,15 +2,13 @@
 author = "v801"
 title = "Basic OpenSSH Hardening"
 date = "2022-07-20"
-description = "Basic setup for OpenSSH hardening on a new box."
 tags = [
     "ssh",
     "network",
     "linux hardening",
 ]
 +++
-
-This article is about basic OpenSSH hardening that can be used on a new box.
+Basic setup for OpenSSH hardening on a new box.
 <!--more-->
 
 ## Intro
