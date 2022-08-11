@@ -54,7 +54,7 @@ PORT     STATE SERVICE VERSION
 8080/tcp open  http    Node.js Express framework
 ```
 
-It's common for http servers to run on a port like this.  How about we take a look in the web browser at `http://[target-ip]:8080` to see what it's serving up.
+It's common for HTTP servers to run on a port like this.  How about we take a look in the web browser at `http://[target-ip]:8080` to see what it's serving up?
 
 ## Web App Recon
 ![VulnNetNode1](https://user-images.githubusercontent.com/32247825/184016106-c889135e-59cd-4b6b-bcb8-78a529d5a14d.png)
