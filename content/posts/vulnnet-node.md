@@ -272,7 +272,7 @@ $ ls -lha
 ```none
 $ cat user.txt
 cat user.txt
-THM{064640a2f880ce9ed7a54886f1bde821}
+THM{************}
 ```
 
 The first flag has been discovered! :space_invader:
@@ -438,7 +438,7 @@ Nice!  Now we've got root!
 
 ```none
 # cat /root/root.txt
-THM{abea728f211b105a608a720a37adabf9}
+THM{************}
 ```
 There's the final flag! :space_invader::space_invader::space_invader:
 

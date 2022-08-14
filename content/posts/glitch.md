@@ -294,7 +294,7 @@ We have located the file and let's see what's inside.
 
 ```none
 $ cat /home/user/user.txt
-THM{i_don't_know_why}
+THM{************}
 ```
 
 There's our second flag. :confetti_ball:
@@ -366,7 +366,7 @@ Looking into `about:logins` we can see some user login info. :space_invader:
 
 ```
 username v0id
-password love_the_void
+password ************
 ```
 
 It's possible these creds work for their system login but I got stuck here for a moment when trying to login as user `v0id`.  Since we're in an interactive shell only, using stuff like `su` doesn't work.
@@ -383,7 +383,7 @@ Now we have a full shell.  Let's check if our info from Firefox works now.
 ```none
 user@ubuntu:/home/user$ su v0id
 su v0id
-Password: love_the_void
+Password: ************
 
 v0id@ubuntu:~$
 ```
@@ -393,7 +393,7 @@ We're now logged in as user `v0id` from the data we found in the Firefox profile
 ```none
 v0id@ubuntu:/home/user$ sudo ls -la /root
 sudo ls -la /root
-[sudo] password for v0id: love_the_void
+[sudo] password for v0id: ************
 
 v0id is not in the sudoers file.  This incident will be reported.
 ```
@@ -403,7 +403,7 @@ Since we aren't on the sudoers list, we have to look around for other options to
 ```none
 v0id@ubuntu:/home/user$ doas -u root /bin/bash
 doas -u root /bin/bash
-Password: love_the_void
+Password: ************
 
 root@ubuntu:/home/user#
 ```
@@ -413,7 +413,7 @@ We now have root!  And with that
 ```none
 root@ubuntu:/var/web# cat /root/root.txt
 cat /root/root.txt
-THM{diamonds_break_our_aching_minds}
+THM{************}
 ```
 
 The final flag. :space_invader::space_invader::space_invader:
