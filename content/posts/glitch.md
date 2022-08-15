@@ -27,7 +27,7 @@ Glitch was a lot of fun so I wanted to share my experience running through it.  
 
 For this challenge I'm using a basic Ubuntu desktop with Firefox and some tools like curl, base64, find, netcat, nmap, ffuf and Burp/FoxyProxy.
 
-### First moves
+## First moves
 After waiting for the box to spin up, the first thing that we can do is run a port scan. Using nmap we'll run the command `nmap -A -T4 [target-ip]`.  In this post the reference to `[target-ip]` is the challenge box, and `[attacker-ip]` is ours.
 
 Here is the output from the command, including my pumpkin prompt.
@@ -84,7 +84,7 @@ Neat.  Running `getAccess()` in the browser console gives us this key value pair
 
 Echoing out and piping into base64 decode gives us our first flag for the challenge.
 
-### Cookie Monsters
+## Cookie Monsters
 
 We have a token but what do we do with it?  Looking at the cookies storage tab in Firefox Devtools, there's a cookie entry called `token`. How about we try putting our decoded token in there?  
 
@@ -299,7 +299,7 @@ THM{************}
 
 There's our second flag. :confetti_ball:
 
-### PrivEsc
+## PrivEsc
 
 The challenge says we need to find the contents of `root.txt`.  Doing the same find command for this doesn't return anything that we have permission to access atleast.  We have to look around some more.
 
@@ -418,7 +418,7 @@ THM{************}
 
 The final flag. :space_invader::space_invader::space_invader:
 
-### Mitigation
+## Mitigation
 
 Avoid using javascript `eval()` function to parse any sort of user input.  
 Limit API request types for all requests.  
