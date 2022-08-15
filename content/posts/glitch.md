@@ -79,7 +79,7 @@ Neat.  Running `getAccess()` in the browser console gives us this key value pair
 
 ```none
 🎃 echo dGhpc19pc19ub3RfcmVhbA==|base64 -d
-this_is_not_real
+************
 ```
 
 Echoing out and piping into base64 decode gives us our first flag for the challenge.
@@ -245,7 +245,7 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Connection: close
-Cookie: token=this_is_not_real
+Cookie: token=************
 Upgrade-Insecure-Requests: 1
 If-None-Match: W/"6e3-y+mlEbLwniKG8z0CvYDjgSkn4ZQ"
 ```
