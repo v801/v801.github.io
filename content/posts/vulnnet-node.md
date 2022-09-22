@@ -239,7 +239,7 @@ User www may run the following commands on vulnnet-node:
     (serv-manage) NOPASSWD: /usr/bin/npm
 ```
 
-Running `sudo -l` show us that we can run `/usr/bin/npm` as user `serv-manage` with no password.  Working with Node in the past, I know it's possible to have npm run commends via it's `package.json` scripts section.  Maybe we can get it to execute one?  Let's see.
+Running `sudo -l` show us that we can run `/usr/bin/npm` as user `serv-manage` with no password.  Working with Node in the past, I know it's possible to have npm run commands via it's `package.json` scripts section.  Maybe we can get it to execute one?  Let's see.
 
 Here we can create a new package.json file for npm to read from.  I've added a script called "privesc" that just spawns a new shell as user `serv-manage`.
 
